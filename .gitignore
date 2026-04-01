@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+
+.DS_Store
+__pycache__/
+*.py[cod]
+
+session_state.json
+session_stats.csv
+session_exports/
+
+monobank_api/.env
+monobank_api/__pycache__/
+monobank_api/.ipynb_checkpoints/
