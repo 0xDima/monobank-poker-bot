@@ -77,7 +77,7 @@ python3 bot.py
 nano /etc/systemd/system/pokerbot.service
 ```
 Вставте наступну конфігурацію:
-
+```bash
 [Unit]
 Description=Poker Monobank Telegram Bot
 After=network.target
@@ -92,7 +92,7 @@ User=root
 
 [Install]
 WantedBy=multi-user.target
-
+```
 Збережіть файл.
 
 ⸻
